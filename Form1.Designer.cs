@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             checkedListBox1 = new CheckedListBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -49,11 +50,21 @@
             checkedListBox1.Size = new Size(150, 114);
             checkedListBox1.TabIndex = 1;
             // 
+            // button2
+            // 
+            button2.Location = new Point(497, 99);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 2;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(checkedListBox1);
             Controls.Add(button1);
             Name = "Form1";
@@ -65,5 +76,6 @@
 
         private Button button1;
         private CheckedListBox checkedListBox1;
+        private Button button2;
     }
 }
